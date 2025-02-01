@@ -1,7 +1,6 @@
 from pinecone import Pinecone as PineconeClient
 from langchain_community.vectorstores import Pinecone
 from langchain_huggingface import HuggingFaceEmbeddings
-#from langchain_openai import OpenAI
 from langchain_openai import ChatOpenAI
 from langchain.chains.question_answering import load_qa_chain
 from langchain_community.callbacks import get_openai_callback
